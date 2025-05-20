@@ -1,0 +1,93 @@
+body {
+   
+   background-color: gray;
+}
+
+
+input{
+    width:100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-color: black;
+
+    box-sizing: border-box;
+    border-radius: 18px;
+    
+    transition: 0.5s;
+    color: black;
+    font-size: 18px;
+}
+
+select{
+    width:100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-color: black;
+
+    box-sizing: border-box;
+    border-radius: 18px;
+  
+    transition: 0.5s;
+    color: black;
+    font-size: 18px;
+}
+
+.b1{
+    text-align: center;
+    background-color: skyblue;
+
+    font-size: 15px;
+    margin:  auto ;
+    width: 30%;
+    height: 700px;
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.b2{
+    
+    text-align: center;
+
+    font-size: 15px;
+    margin:30px auto 0px;
+    width: 50%;
+    
+    
+    border-radius: 12px;
+    padding: 10px;
+  
+
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #ffff;
+        display: block;
+        
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        
+        padding: 12px 20px;
+        width:250px;
+        
+       
+        background-color:#40db47;
+        cursor: pointer;
+        transition: all 0.3s;
+        outline: none;
+        border: none;
+        
+        }
+        .button:hover {
+        background-color: #73ff7a;
+          color: #1a1a1a;
+        }
+        .button:active {
+          background-color: #40db47;
+        
+        }
